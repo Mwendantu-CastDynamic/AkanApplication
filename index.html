@@ -5,46 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Akan Naming App</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <header>
+  <header class="banner">
     <h1>AKAN NAMING APPLICATION</h1>
-      <p>Discover Your Ghanaian Traditional Name Today!</p>
-   </header>
-      <img src="images/altdesign.jpg" alt="kente design-header" height="" width="">
+    <p>Discover Your Ghanaian Traditional Name Today!</p>
+  </header>
+   <div id="main">
+    <!-- <img src="" alt="kente design-header" height="400" width=""> -->
    <nav>
-      <img src="images/femalemodelkente" alt="female kente attire-nav" height="" width=""> 
-      <p>For more about the Ghanaian People click on the kente pattern icon below
-      <a href="https://blog.compassion.com/traditions-of-ghana-warrior-king/">
-      <img src="images/icondesign.jpg" alt="icon hyperlink -footer" height="" width="">
-      </a>
-      </p>
-    </nav>
-    <main>
-    <section>
-     <p>The Akan naming application is an application based on the Ghanaian Cultural Naming System</p>
-     <p>To discover your Ghanaian traditional name using this Akan application, please input your details correctly
-  into the relevant sections of the form as indicated below and click the submit details button to generate 
-  your Akan name.</p> 
-   </section>
+      <div class="wrapper">
+        <img src="images/femalemodelkente.jpg" alt="female kente attire-nav" height="" width=""> 
+        <p>For more about the Ghanaian People click on the kente pattern icon below</p>
+        <a href="https://blog.compassion.com/traditions-of-ghana-warrior-king/">
+        <img src="images/kidhyperlinkimage.jpeg" alt="icon hyperlink-footer" height="" width="">
+        </a>
+      </div>
+   </nav>
    <article>
-   <img src="images/articlekente.jpg" alt="kente fabric-article" height="" width="">
-   </article>
-   <section>
-   <form>
-   <img src="images/maindesign.jpg" alt="kente design-form" height="" width="">
-   <br>Name:<p>(control)</p><br>Date of Birth:<p>DD(selectioncontrol) MM(selectioncontrol) YY(selectioncontrol)</p>p>
-   <p>Gender:</p>Male:<p>(optcontrol)</p><p>Female<p>(optcontrol)</p><br>
-   <br><p>Generate Akan(button)</p><br>
-   </form>
-   </section>
-   </main>
-   <aside>
-   <img src="images/malemodelkente" alt="male kente attire-aside" height="" width="">
-   </aside>  
-  <footer>
-    <img src="images/ghanaianflag.jpg" alt="Ghana flag impression-footer" height="" width="">
-  </footer>
-</body>
+      <img src="images/articlekente.jpg" alt="kente fabric-article" height="" width="">
+    <div>
+      <section>
+        <h3>The Akan Defined</h3>
+        <p>The Akan naming application is an application based on the Ghanaian Cultural Naming System</p>
+        <p>To discover your Ghanaian traditional name using this Akan application,<br> please input your details correctly
+          into the relevant sections of the form as indicated below <br>and click the Generate Akan button 
+          to generate your Akan name.
+        </p>
+      </section> 
+    </div>
+    <div>
+      <form>
+        <h3>Fill in Your Details in this Form and <br>
+        click on the 'Generate Akan' button to Find out Your Akan Name</h3><br>
+          <br><strong>Gender: <select  id="gender"> 
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          </select><br><br> 
+          <div class="write"></div>
+          Date: <input id="date" type="number"><br><br>
+         Month: <input id="month" type="number"><br><br>
+          Year: <input id="year" type="number"><br><br>
+          <input type="button" value="GENERATE AKAN" onclick="akanFunction()">
+      </form>
+    </div> 
+    <script src="javascript.js"></script>
+    </article>
+    <aside>
+      <div>
+        <img src="images/malemodelkente.jpg" alt="male kente attire-aside" height="" width="">
+    </aside>
+      <section>
+        <div>
+        <img src="images/maindesign.jpg" alt="kente design-form" height="" width="">
+        </div>
+      </section>
+    <footer class="banner">Contact Information<br><p>email:brauxer@gmail.com</p>
+    </footer>
+      <img src="images/ghanaianflag.jpg" alt="Ghana flag impression-footer" height="" width=""> 
+    </body>
 </html>
