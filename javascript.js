@@ -89,13 +89,14 @@ function akanFunction() {
               name = "Ama";
           }
       }
-      alert("Your Akan name is " + name)
-      console.log('Day is ' + day);
-      console.log('Date2 is ' + date2)
-      console.log(gender);
-      console.log(date);
-  } 
-  
-  else {
-      alert("Enter a valid date format");
+      else{
+      
+        alert("Enter a valid date format");
+  }
+  {
+  alert("Your Akan name is " + name)
+  console.log('date is ' + day);
+  console.log('date2 is ' + date2)
+  console.log(gender);
+  console.log(date);
   }
