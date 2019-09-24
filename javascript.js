@@ -3,10 +3,10 @@ function akanFunction() {
   let name = "";
   let weekday = "";
   
-  let gender = document.getElementById("gender").elements[0].value;
-  let date = document.getElementById("date").elements[1].value;
-  let month = document.getElementById("month").elements[2].value;
-  let year = document.getElementById("year").elements[3].value;
+  let gender = document.getElementById("gender").value;
+  let date = document.getElementById("date").value;
+  let month = document.getElementById("month").value;
+  let year = document.getElementById("year").value;
   let dob = month + '/' + date + '/' + year;
   let date2 = new Date(dob);
   day = date2.getDay();
@@ -98,7 +98,6 @@ function akanFunction() {
 }
   alert("Your Akan name is " + name);
   console.log('date is ' + day);
-  console.log('date2 is ' + date2);
   console.log(gender);
   console.log(date);
 
