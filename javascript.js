@@ -1,13 +1,15 @@
+var day;
 function akanFunction() {
   let name = "";
   let weekday = "";
+  
   let gender = document.getElementById("gender").elements[0].value;
   let date = document.getElementById("date").elements[1].value;
   let month = document.getElementById("month").elements[2].value;
   let year = document.getElementById("year").elements[3].value;
   let dob = month + '/' + date + '/' + year;
   let date2 = new Date(dob);
-  let day = date2.getDay();
+  day = date2.getDay();
  let weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   if ((date > 0 && date <= 31) && (month > 0 && month <= 12) &&( year>1900 && year <=2100)) {
 
@@ -93,10 +95,10 @@ function akanFunction() {
       
         alert("Enter a valid date format");
   }
-  {
-  alert("Your Akan name is " + name)
+}
+  alert("Your Akan name is " + name);
   console.log('date is ' + day);
-  console.log('date2 is ' + date2)
+  console.log('date2 is ' + date2);
   console.log(gender);
   console.log(date);
-  }
+
