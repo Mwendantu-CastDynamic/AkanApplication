@@ -6,7 +6,7 @@
 Project setup instructions
 To access this project's live site open your javascript enabled web browser and type the following URL into the URL window:
 
-https://github.com/Mwendantu-CastDynamic/AkanApplication.io
+https://mwendantu-castdynamic.github.io/AkanApplication/
 
 You can also access the entire project including all the program code directly using the following remote repository address:
 
