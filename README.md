@@ -1,21 +1,36 @@
-#PortFolio WebPage
+#Akan Application
 ####{Website Application},{Version: September-2019}
 #### By **{Mr. Brian Mwenda, Git Alias Mwendantu-CastDynamic}**
 
 
 Project setup instructions
-To access this project/ type the following URL within your  selected web-browser:
+To access this project's live site open your javascript enabled web browser and type the following URL into the URL window:
 
-https://github.com/Mwendantu-CastDynamic/PortFolio.io
+https://github.com/Mwendantu-CastDynamic/AkanApplication.io
+
+You can also access the entire project including all the program code directly using the following remote repository address:
+
+https://github.com/Mwendantu-CastDynamic/AkanApplication.git
+or using 
 atom .
 code . [//]: # (this is if Visual Studio Code is your preferred text editor)
 
 ##Technologies Used
-This Portfolio website has been developed using HTML and Cascading Styling Sheets (CSS).
-It has  among other things experimented with using the new flexbox feature of HTML5 
+This Akan Naming Application has been developed using the following technologies and methodologies
+1. Behaviour Driven Development (BDD)
 
+2. HTML5 - A scripting language for designing the layout and text Properties of Web-pages
+3. JavaScript - A web based Front-end Object Oriented Programming language used to add functionality responsiveness and interactivity to websites.
+4. CSS- Cascading style sheets used to add style formating and design webpage layout.
+5. Bootstrap - Special libraries of CSS templates which are used to achieve a predictable and good results when styling webpages.
+
+Behaviour Driven Development (BDD)
+This entails identifying the code behaviour which we wish to generate in our code which we want our final application to be able to perform. 
+We identify what the program should do first, then determine how to make it do it.
 ##Known Bugs
-Possible bugs relate to the use of the new HTML5 Flexbox feature where the time available was found to be insufficient to resolve functionality issues arising due to the unfamiliarity with the new HTML5 features.
+Possible bugs relate to the use of the JavaScript and its related functions which did nit generate the expected output even after persistent debugging.
+
+HTML 5 also resulted in errors due to the mixing of HTML4 elements such as divs and spans with HTML5 elements such as flexboxes
 ###License Information
 MIT License
 
